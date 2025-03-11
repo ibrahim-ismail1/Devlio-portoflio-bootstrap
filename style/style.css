@@ -1,4 +1,5 @@
 /* Genral */
+
 h1{
     font-family:"Raleway" ,sans-serif;
     font-weight: 700;
@@ -25,6 +26,7 @@ p{
     font-size: 30px;
     margin: 0;
     font-weight: 700;
+    
 }
 .nav-item:hover .dropdown-menu{
     opacity: 1;
@@ -182,6 +184,7 @@ p.card-text{
 
 
 /* Port */
+
 .Port-Header h2::after{
     content: '';
     width: 5%;
@@ -210,8 +213,8 @@ p.card-text{
 }
 .Each-Port-img img{
     object-fit: contain;
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Pricing */
@@ -324,6 +327,18 @@ header .nav-link::before{
     }
     .All-Carusel{
         height: 100vh;
+    }
+    .Home-Content span::before {
+       
+        right: -250px;
+
+    }
+    .Home-Content span::after {
+       
+        left: 250px;
+        top: 15px;
+
+        
     }
 }
 
